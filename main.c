@@ -36,6 +36,33 @@ int main()
     int char_y = 0;
     int char_z = 0;
 
+    int char_A = 0;
+    int char_B = 0;
+    int char_C = 0;
+    int char_D = 0;
+    int char_E = 0;
+    int char_F = 0;
+    int char_G = 0;
+    int char_H = 0;
+    int char_I = 0;
+    int char_J = 0;
+    int char_K = 0;
+    int char_L = 0;
+    int char_M = 0;
+    int char_N = 0;
+    int char_O = 0;
+    int char_P = 0;
+    int char_Q = 0;
+    int char_R = 0;
+    int char_S = 0;
+    int char_T = 0;
+    int char_U = 0;
+    int char_V = 0;
+    int char_W = 0;
+    int char_X = 0;
+    int char_Y = 0;
+    int char_Z = 0;
+
 
     void sort(double* item_array) {
         for (int i = 0; i <5; i++) {
@@ -132,88 +159,113 @@ int main()
         if (ch == 'z') {
             char_z++;
         }
+
+        if (ch == 'A') {
+            char_A++;
+        }
+        if (ch == 'B') {
+            char_B++;
+        }
+        if (ch == 'C') {
+            char_C++;
+        }
+        if (ch == 'D') {
+            char_D++;
+        }
+        if (ch == 'E') {
+            char_E++;
+        }
+        if (ch == 'F') {
+            char_F++;
+        }
+        if (ch == 'G') {
+            char_G++;
+        }
+        if (ch == 'H') {
+            char_H++;
+        }
+        if (ch == 'I') {
+            char_I++;
+        }
+        if (ch == 'J') {
+            char_J++;
+        }
+        if (ch == 'K') {
+            char_K++;
+        }
+        if (ch == 'L') {
+            char_L++;
+        }
+        if (ch == 'M') {
+            char_M++;
+        }
+        if (ch == 'N') {
+            char_N++;
+        }
+        if (ch == 'O') {
+            char_O++;
+        }
+        if (ch == 'P') {
+            char_P++;
+        }
+        if (ch == 'Q') {
+            char_Q++;
+        }
+        if (ch == 'R') {
+            char_R++;
+        }
+        if (ch == 'S') {
+            char_S++;
+        }
+        if (ch == 'T') {
+            char_T++;
+        }
+        if (ch == 'U') {
+            char_U++;
+        }
+        if (ch == 'V') {
+            char_V++;
+        }
+        if (ch == 'W') {
+            char_W++;
+        }
+        if (ch == 'X') {
+            char_X++;
+        }
+        if (ch == 'Y') {
+            char_Y++;
+        }
+        if (ch == 'Z') {
+            char_Z++;
+        }
     }
     //printing
-    if (char_a <= 1);{
-    printf("a: %d\n", char_a);
-    }
-    if (char_b <= 1);{
-    printf("b: %d\n", char_b);
-    }
-    if (char_c <= 1);{
-    printf("c: %d\n", char_c);
-    }
-    if (char_d <= 1);{
-    printf("d: %d\n", char_d);
-    }
-    if (char_e <= 1);{
-    printf("e: %d\n", char_e);
-    }
-    if (char_f <= 1);{
-    printf("f: %d\n", char_f);
-    }
-    if (char_g <= 1);{
-    printf("g: %d\n", char_g);
-    }
-    if (char_h <= 1);{
-    printf("h: %d\n", char_h);
-    }
-    if (char_i <= 1);{
-    printf("i: %d\n", char_i);
-    }
-    if (char_j <= 1);{
-    printf("j: %d\n", char_j);
-    }
-    if (char_k <= 1);{
-    printf("k: %d\n", char_k);
-    }
-    if (char_l <= 1);{
-    printf("l: %d\n", char_l);
-    }
-    if (char_m <= 1);{
-    printf("m: %d\n", char_m);
-    }
-    if (char_n <= 1);{
-    printf("n: %d\n", char_n);
-    }
-    if (char_o <= 1);{
-    printf("o: %d\n", char_o);
-    }
-    if (char_p <= 1);{
-    printf("p: %d\n", char_p);
-    }
-    if (char_q <= 1);{
-    printf("q: %d\n", char_q);
-    }
-    if (char_r <= 1);{
-    printf("r: %d\n", char_r);
-    }
-    if (char_s <= 1);{
-    printf("s: %d\n", char_s);
-    }
-    if (char_t <= 1);{
-    printf("t: %d\n", char_t);
-    }
-    if (char_u <= 1);{
-    printf("u: %d\n", char_u);
-    }
-    if (char_v <= 1);{
-    printf("v: %d\n", char_v);
-    }
-    if (char_w <= 1);{
-    printf("w: %d\n", char_w);
-    }
-    if (char_x <= 1);{
-    printf("x: %d\n", char_x);
-    }
-    if (char_y <= 1);{
-    printf("y: %d\n", char_y);
-    }
-    if (char_z <= 1);{
-    printf("z: %d\n", char_z);
-    }
-
-    //printf("%d\n", char_a, char_b, char_c, char_d, char_e, char_f, char_g, char_h, char_i, char_j, char_k, char_l, char_m, char_n, char_o, char_p, char_q, char_r, char_s, char_t, char_u, char_v, char_w, char_x, char_x, char_y, char_z );
+    printf("a: %d\n", char_a + char_A);
+    printf("b: %d\n", char_b + char_B);
+    printf("c: %d\n", char_c + char_C);
+    printf("d: %d\n", char_d + char_D);
+    printf("e: %d\n", char_e + char_E);
+    printf("f: %d\n", char_f + char_F);
+    printf("g: %d\n", char_g + char_G);
+    printf("h: %d\n", char_h + char_H);
+    printf("i: %d\n", char_i + char_I);
+    printf("j: %d\n", char_j + char_J);
+    printf("k: %d\n", char_k + char_K);
+    printf("l: %d\n", char_l + char_L);
+    printf("m: %d\n", char_m + char_M);
+    printf("n: %d\n", char_n + char_N);
+    printf("o: %d\n", char_o + char_O);
+    printf("p: %d\n", char_p + char_P);
+    printf("q: %d\n", char_q + char_Q);
+    printf("r: %d\n", char_r + char_R);
+    printf("s: %d\n", char_s + char_S);
+    printf("t: %d\n", char_t + char_T);
+    printf("u: %d\n", char_u + char_U);
+    printf("v: %d\n", char_v + char_V);
+    printf("w: %d\n", char_w + char_W);
+    printf("x: %d\n", char_x + char_X);
+    printf("y: %d\n", char_y + char_Y);
+    printf("z: %d\n", char_z + char_Z);
     fclose(ptr);
     return 0;
 }
