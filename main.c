@@ -4,7 +4,36 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Driver code
+void print_array(double* item_array) {
+    for (int i = 0; i < 5; i++) {
+        printf("%d: %lf\n", i, item_array[i]);
+    }
+}
+
+int get_min(int index, double* item_array) {
+    double min = item_array[index];
+    int min_index = index;
+    for (int i = index + 1; i <5; i++) {
+        if (item_array[i] < min) {
+            min = item_array[i];
+            min_index = i;
+        }
+    }
+    return min_index;
+}
+
+void swap(double* item1, double* item2) {
+        double temp = *item1;
+        *item1 = *item2;
+        *item2 = temp;
+}
+
+void sort(double* item_array) {
+    for (int i = 0; i <5; i++) {
+        swap(&item_array[i], &item_array[get_min(i, item_array)]);
+    }
+}
+
 int main()
 {
     FILE* ptr;
@@ -240,33 +269,44 @@ int main()
         }
     }
     //printing
-    printf("a: %d\n", char_a + char_A);
-    printf("b: %d\n", char_b + char_B);
-    printf("c: %d\n", char_c + char_C);
-    printf("d: %d\n", char_d + char_D);
-    printf("e: %d\n", char_e + char_E);
-    printf("f: %d\n", char_f + char_F);
-    printf("g: %d\n", char_g + char_G);
-    printf("h: %d\n", char_h + char_H);
-    printf("i: %d\n", char_i + char_I);
-    printf("j: %d\n", char_j + char_J);
-    printf("k: %d\n", char_k + char_K);
-    printf("l: %d\n", char_l + char_L);
-    printf("m: %d\n", char_m + char_M);
-    printf("n: %d\n", char_n + char_N);
-    printf("o: %d\n", char_o + char_O);
-    printf("p: %d\n", char_p + char_P);
-    printf("q: %d\n", char_q + char_Q);
-    printf("r: %d\n", char_r + char_R);
-    printf("s: %d\n", char_s + char_S);
-    printf("t: %d\n", char_t + char_T);
-    printf("u: %d\n", char_u + char_U);
-    printf("v: %d\n", char_v + char_V);
-    printf("w: %d\n", char_w + char_W);
-    printf("x: %d\n", char_x + char_X);
-    printf("y: %d\n", char_y + char_Y);
-    printf("z: %d\n", char_z + char_Z);
-    fclose(ptr);
+
+    int array = {
+
+     num - a, 
+     num - b, 
+     num - c, 
+    };
+
+
+    sort(item_array);
+    print_array(item_array);
+    //printf("a: %d\n", char_a + char_A);
+    //printf("b: %d\n", char_b + char_B);
+    //printf("c: %d\n", char_c + char_C);
+    //printf("d: %d\n", char_d + char_D);
+    //printf("e: %d\n", char_e + char_E);
+    //printf("f: %d\n", char_f + char_F);
+    //printf("g: %d\n", char_g + char_G);
+    //printf("h: %d\n", char_h + char_H);
+    //printf("i: %d\n", char_i + char_I);
+    //printf("j: %d\n", char_j + char_J):
+    //printf("k: %d\n", char_k + char_K);
+    //printf("l: %d\n", char_l + char_L);
+    //printf("m: %d\n", char_m + char_M);
+    //printf("n: %d\n", char_n + char_N);
+    //printf("o: %d\n", char_o + char_O);
+    //printf("p: %d\n", char_p + char_P);
+    //printf("q: %d\n", char_q + char_Q);
+    //printf("r: %d\n", char_r + char_R);
+    //printf("s: %d\n", char_s + char_S);
+    //printf("t: %d\n", char_t + char_T);
+    //printf("u: %d\n", char_u + char_U);
+    //printf("v: %d\n", char_v + char_V);
+    //printf("w: %d\n", char_w + char_W);
+    //printf("x: %d\n", char_x + char_X);
+    //printf("y: %d\n", char_y + char_Y);
+    //printf("z: %d\n", char_z + char_Z);
+    //fclose(ptr);
     return 0;
 }
 
